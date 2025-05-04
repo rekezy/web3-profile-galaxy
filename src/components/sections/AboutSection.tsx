@@ -18,7 +18,7 @@ const AboutSection = () => {
             <div className="relative">
               <div className="aspect-square rounded-xl overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=600" 
+                  src="/public\BUIY4372-removebg-preview.png" 
                   alt="Developer Profile" 
                   className="w-full h-full object-cover rounded-xl"
                 />

@@ -42,7 +42,11 @@ const Navbar = () => {
     >
       <div className="container px-4 mx-auto flex justify-between items-center">
         <a href="#" className="text-2xl font-bold gradient-text">
-          DevPortfolio
+        <img 
+                  src="public\rekezy_morgan_black-removebg-preview.png" 
+                  alt="Developer Profile" 
+                  className=" h-[100px] object-cover rounded-xl"
+                />
         </a>
 
         {/* Desktop Menu */}
