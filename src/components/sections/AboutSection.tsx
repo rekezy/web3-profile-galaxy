@@ -18,7 +18,7 @@ const AboutSection = () => {
             <div className="relative">
               <div className="aspect-square rounded-xl overflow-hidden">
                 <img 
-                  src="/public\BUIY4372-removebg-preview.png" 
+                  src="public\kezy_kent-removebg-preview.png" 
                   alt="Developer Profile" 
                   className="w-full h-full object-cover rounded-xl"
                 />
@@ -33,7 +33,7 @@ const AboutSection = () => {
           </div>
           
           <div className="w-full lg:w-3/5">
-            <h3 className="text-2xl font-bold mb-4">Full Stack Developer & Web3 Engineer</h3>
+            <h3 className="text-2xl font-bold mb-4">Anukam Ihechukwu Morgan</h3>
             <p className="text-muted-foreground mb-6">
               With over 5 years of experience in web development and 3+ years in blockchain technologies, 
               I specialize in creating high-performance web applications and decentralized solutions. 
@@ -77,20 +77,20 @@ const AboutSection = () => {
               
               <TabsContent value="education" className="space-y-4">
                 <div className="border-l-2 border-dev-purple pl-4">
-                  <h4 className="font-bold">Master of Computer Science</h4>
-                  <p className="text-muted-foreground text-sm">Tech University • 2017 - 2019</p>
-                  <p className="mt-1">Specialized in Distributed Systems and Blockchain Technology.</p>
-                </div>
-                <div className="border-l-2 border-dev-purple pl-4">
-                  <h4 className="font-bold">Bachelor of Science in Computer Engineering</h4>
-                  <p className="text-muted-foreground text-sm">State University • 2013 - 2017</p>
+                  <h4 className="font-bold">Bachelor of Science in Computer Science</h4>
+                  <p className="text-muted-foreground text-sm">University of Cross River State • 2018 - 2023</p>
                   <p className="mt-1">Graduated with honors, focused on software development and systems architecture.</p>
                 </div>
                 <div className="border-l-2 border-dev-purple pl-4">
                   <h4 className="font-bold">Blockchain Developer Certification</h4>
-                  <p className="text-muted-foreground text-sm">Blockchain Academy • 2020</p>
+                  <p className="text-muted-foreground text-sm">Blockchain Academy • 2024</p>
                   <p className="mt-1">Advanced smart contract development and security practices.</p>
                 </div>
+                 <div className="border-l-2 border-dev-purple pl-4">
+                  <h4 className="font-bold">Masters Degree of Computer Science in view</h4>
+                   <p className="text-muted-foreground text-sm">Working Towards getting a Masters Degree</p>
+                  {/* <p className="mt-1">Specialized in Distributed Systems and Blockchain Technology.</p> */}
+                </div> 
               </TabsContent>
               
               <TabsContent value="approach" className="space-y-4">
@@ -138,10 +138,12 @@ const AboutSection = () => {
               <Button size="lg">
                 Download Resume
               </Button>
-              <Button variant="outline" size="lg">
-                <Calendar className="mr-2 h-4 w-4" />
-                Schedule a Meeting
-              </Button>
+              <a href="https://calendly.com/rekezy101/30min">
+                <Button variant="outline" size="lg">
+                  <Calendar className="mr-2 h-4 w-4" />
+                  Schedule a Meeting
+                </Button>
+              </a>
             </div>
           </div>
         </div>

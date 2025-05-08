@@ -15,23 +15,23 @@ const Footer = () => {
       <div className="container px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
-            <h3 className="text-2xl font-bold gradient-text mb-4">DevPortfolio</h3>
+            <h3 className="text-2xl font-bold gradient-text mb-4">Rekezy Morgan</h3>
             <p className="text-muted-foreground mb-4">
               Building innovative web and blockchain solutions with modern technologies and clean code.
             </p>
             <div className="flex space-x-4">
               <Button variant="ghost" size="icon" asChild>
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/rekezy" target="_blank" rel="noopener noreferrer">
                   <Github className="h-5 w-5" />
                 </a>
               </Button>
               <Button variant="ghost" size="icon" asChild>
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/rekezy-morgan-4206ba132/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-5 w-5" />
                 </a>
               </Button>
               <Button variant="ghost" size="icon" asChild>
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="mailto:rekezy101@email.com" target="_blank" rel="noopener noreferrer">
                   <Mail className="h-5 w-5" />
                 </a>
               </Button>
@@ -64,15 +64,15 @@ const Footer = () => {
             <ul className="space-y-2">
               <li className="text-muted-foreground">
                 <span className="block text-foreground">Email:</span>
-                your.email@example.com
+                rekezy101@gmail.com
               </li>
               <li className="text-muted-foreground">
                 <span className="block text-foreground">Phone:</span>
-                +1 (234) 567-8901
+                +234 70-3576-4149
               </li>
               <li className="text-muted-foreground">
                 <span className="block text-foreground">Location:</span>
-                San Francisco, CA
+                Remote.
               </li>
             </ul>
           </div>
@@ -80,7 +80,7 @@ const Footer = () => {
         
         <div className="border-t border-border mt-12 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-muted-foreground text-sm mb-4 md:mb-0">
-            © {new Date().getFullYear()} DevPortfolio. All rights reserved.
+            © {new Date().getFullYear()} Rekezy. All rights reserved.
           </p>
           
           <Button variant="ghost" size="icon" onClick={scrollToTop}>

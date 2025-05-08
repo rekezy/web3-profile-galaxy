@@ -18,22 +18,22 @@ const socialLinks: SocialLink[] = [
   {
     icon: Github,
     label: "GitHub",
-    href: "https://github.com/yourusername"
+    href: "https://github.com/rekezy"
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
-    href: "https://linkedin.com/in/yourprofile"
+    href: "https://www.linkedin.com/in/rekezy-morgan-4206ba132/"
   },
   {
     icon: Mail,
     label: "Email",
-    href: "mailto:your.email@example.com"
+    href: "mailto:your.rekezy101@gmail.com"
   },
   {
     icon: Phone,
     label: "Phone",
-    href: "tel:+1234567890"
+    href: "tel:+234-07035764149"
   }
 ];
 

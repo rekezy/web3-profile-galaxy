@@ -25,18 +25,24 @@ const HeroSection = () => {
           </p>
           
           <div className="flex flex-wrap gap-4 justify-center">
-            <Button size="lg">
-              View Projects
-              <span className="ml-2">→</span>
-            </Button>
+            <a href="#projects">
+              <Button size="lg">
+                View Projects
+                <span className="ml-2">→</span>
+              </Button>
+            </a>
+           <a href="https://github.com/rekezy">
             <Button variant="outline" size="lg">
-              <Github className="mr-2 h-4 w-4" />
-              GitHub
-            </Button>
-            <Button variant="outline" size="lg">
-              <Mail className="mr-2 h-4 w-4" />
-              Contact
-            </Button>
+                <Github className="mr-2 h-4 w-4" />
+                GitHub
+              </Button>
+           </a>
+            <a href="mailto:rekezy101@email.com">
+              <Button variant="outline" size="lg">
+                <Mail className="mr-2 h-4 w-4" />
+                Contact
+              </Button>
+            </a>
           </div>
         </div>
       </div>
